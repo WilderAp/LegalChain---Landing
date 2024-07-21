@@ -4,16 +4,18 @@ import backgroundImage from "../../public/Rectangle.png";
 function Hero() {
   return (
     <div
-      className="grid grid-cols-3 px-20"
+      className=" justify-center px-10 md:grid md:grid-cols-3 md:px-20"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         height: "700px",
       }}
     >
-      <div className="flex flex-col col-span-2 items-start justify-center">
-        <h1 className="text-3xl text-white font-bold">Welcome to</h1>
-        <img src={logo} alt="logo" />
-        <span className="text-white w-90 text-start pr-20">
+      <div className="flex flex-col col-span-2 items-start justify-center py-10">
+        <figure className="mx-auto md:mx-0">
+          <h1 className="text-3xl text-white font-bold">Welcome to</h1>
+          <img src={logo} alt="logo" />
+        </figure>
+        <span className="text-white w-90 text-center md:text-start md:pr-20">
           <p className="py-4">
             We are an innovative platform that allows you to record videos with
             legal value, giving you the security and peace of mind of having
@@ -29,7 +31,7 @@ function Hero() {
 
       <div className="flex flex-col text-start items-center justify-center gap-4 text-white">
         <span className="">
-          <h2 className="font-bold text-xl  mr-28">Get started</h2>
+          <h2 className="font-bold text-xl  md:mr-28">Get started</h2>
         </span>
 
         <span>

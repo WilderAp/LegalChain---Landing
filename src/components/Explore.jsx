@@ -34,9 +34,12 @@ function Explore() {
     >
       <h1 className="text-white font-bold text-4xl">Explore LEGALCHAIN</h1>
 
-      <span>
+      <span className="">
         {features.map((feature, index) => (
-          <span key={index} className="text-white flex justify-center gap-2">
+          <span
+            key={index}
+            className="text-white flex justify-center gap-2 flex flex-col md:flex-row"
+          >
             <h2 className="font-bold">{feature.title}</h2>
             <p>{feature.paragraph}</p>
           </span>

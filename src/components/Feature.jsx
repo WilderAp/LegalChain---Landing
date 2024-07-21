@@ -2,16 +2,16 @@ import phone from "../../public/phone.png";
 
 function Feature() {
   return (
-    <div className="grid grid-cols-3">
-      <section className="col-span-2">
+    <div className="grid py-20 md:grid-cols-3 mx-10 md:mx-0 md:py-0">
+      <section className="md:col-span-2">
         <img src={phone} alt="logo" />
       </section>
 
-      <section className="flex flex-col justify-center text-[#7E0F84]">
+      <section className="flex flex-col justify-center text-[#7E0F84] text-center md:text-start">
         <h1 className="text-3xl font-bold pb-8">
           Record your videos and convert them to nft!
         </h1>
-        <ul className="flex flex-col gap-8">
+        <ul className="flex flex-col gap-8 ml-14 md:ml-0">
           <li className="flex gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"

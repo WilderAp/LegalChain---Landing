@@ -12,8 +12,8 @@ function About() {
       <span className="text-3xl font-semibold text-white flex py-20">
         <h1 className="mx-auto">Welcome to LEGALCHAIN</h1>
       </span>
-      <section className="grid grid-cols-3">
-        <div className="flex flex-col text-white w-[340px] gap-4 mx-auto">
+      <section className="grid text-center md:grid-cols-3 md:text-start">
+        <div className="flex flex-col text-white w-[340px] h-[600px] gap-4 mx-auto">
           <img src={square1} alt="house" width={"340px"} />
           <h1 className="font-bold text-xl">Recording the sales contract</h1>
           <p>
@@ -22,7 +22,7 @@ function About() {
             payment, delivery date and conditions of the property.
           </p>
         </div>
-        <div className="flex flex-col text-white w-[340px] gap-4 mx-auto">
+        <div className="flex flex-col text-white w-[340px] h-[600px] gap-4 mx-auto">
           <img src={square2} alt="business" width={"340px"} />
           <h1 className="font-bold text-xl">Contract negotiation</h1>
           <p>
@@ -31,7 +31,7 @@ function About() {
             services, payment terms, delivery dates, and warranty clauses.
           </p>
         </div>
-        <div className="flex flex-col text-white w-[340px] gap-4 mx-auto">
+        <div className="flex flex-col text-white w-[340px] h-[600px] gap-4 mx-auto">
           <img src={square3} alt="handshake" width={"340px"} />
           <h1 className="font-bold text-xl">Partners agreement</h1>
           <p>
