@@ -4,14 +4,12 @@ import Explore from "./components/Explore";
 import Feature from "./components/Feature";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/ui/Footer";
-import Layout from "./components/ui/Layout";
+// import Layout from "./components/ui/Layout";
 
 function App() {
   return (
     <main>
-      {/* <Navbar /> */}
       <Header />
       <Hero />
       <Feature />

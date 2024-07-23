@@ -8,6 +8,8 @@ function Hero() {
       style={{
         backgroundImage: `url(${backgroundImage})`,
         height: "700px",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <div className="flex flex-col col-span-2 items-start justify-center py-10">
@@ -29,7 +31,7 @@ function Hero() {
         </span>
       </div>
 
-      <div className="flex flex-col text-start items-center justify-center gap-4 text-white">
+      <div className="flex flex-col text-start items-center justify-center gap-4 text-black py-10 border-2 border-black-200  bg-white rounded-lg md:rounded-0 md:bg-transparent md:text-white md:py-0 md:border-0">
         <span className="">
           <h2 className="font-bold text-xl  md:mr-28">Get started</h2>
         </span>
@@ -39,7 +41,7 @@ function Hero() {
           <input
             type="email"
             placeholder="email@email.com"
-            className="bg-white input w-full max-w-xs"
+            className="md:bg-white input w-full max-w-xs bg-gray-100"
           />
         </span>
         <span>
@@ -47,7 +49,7 @@ function Hero() {
           <input
             type="password"
             placeholder="password"
-            className="bg-white input w-full max-w-xs"
+            className="md:bg-white input w-full max-w-xs bg-gray-100"
           />
         </span>
         <span>
@@ -55,7 +57,7 @@ function Hero() {
           <input
             type="text"
             placeholder="+11 11 111 111 111"
-            className="bg-white input w-full max-w-xs"
+            className="md:bg-white input w-full max-w-xs bg-gray-100"
           />
         </span>
 

@@ -29,8 +29,12 @@ const features = [
 function Explore() {
   return (
     <div
-      className="flex flex-col justify-center items-center text-center py-20 gap-10"
-      style={{ backgroundImage: `url(${rectangle})` }}
+      className="flex flex-col justify-center items-center text-center py-20 gap-10 mt-0"
+      style={{
+        backgroundImage: `url(${rectangle})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <h1 className="text-white font-bold text-4xl">Explore LEGALCHAIN</h1>
 
@@ -38,10 +42,11 @@ function Explore() {
         {features.map((feature, index) => (
           <span
             key={index}
-            className="text-white flex justify-center gap-2 flex flex-col md:flex-row"
+            className="text-white flex justify-center gap-2 flex flex-col md:flex-row text-start px-16 md:px-0"
           >
-            <h2 className="font-bold">{feature.title}</h2>
-            <p>{feature.paragraph}</p>
+            <p>
+              <b>{feature.title}</b> {feature.paragraph}
+            </p>
           </span>
         ))}
       </span>

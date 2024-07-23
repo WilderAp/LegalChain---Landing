@@ -2,13 +2,13 @@ import phone from "../../public/phone.png";
 
 function Feature() {
   return (
-    <div className="grid py-20 md:grid-cols-3 mx-10 md:mx-0 md:py-0">
-      <section className="md:col-span-2">
+    <div className="grid py-20 md:grid-cols-2 mx-10 md:mx-0 md:py-0">
+      <section className="">
         <img src={phone} alt="logo" />
       </section>
 
-      <section className="flex flex-col justify-center text-[#7E0F84] text-center md:text-start">
-        <h1 className="text-3xl font-bold pb-8">
+      <section className="flex flex-col justify-center text-[#7E0F84] text-center md:text-start pt-8 md:pt-0">
+        <h1 className="text-3xl font-bold pb-8 ">
           Record your videos and convert them to nft!
         </h1>
         <ul className="flex flex-col gap-8 ml-14 md:ml-0">
