@@ -14,7 +14,6 @@ function App() {
       <Hero />
       <Feature />
       <About />
-      {/* <Explore /> */}
       <Contact />
       <Footer />
       {/* <Layout maxWidth="max-w-[1440px]">
